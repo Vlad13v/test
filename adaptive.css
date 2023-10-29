@@ -1,0 +1,42 @@
+.container {
+    max-width: 1400px;
+}
+
+.header {
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+}
+
+.section {
+    width: 23%;
+}
+
+.footer {
+    width: 32%;
+}
+
+
+/* 1000px */
+@media only screen and (max-width: 1000px) {
+    .section {
+        width: 45%;
+    }
+    
+    .footer {
+        width: 90%;
+    }
+}
+
+/* 600px */
+@media only screen and (max-width: 600px) {
+    .section {
+    
+        width: 100%;
+    }
+    
+    .footer {
+        width: 90%;}
+}
